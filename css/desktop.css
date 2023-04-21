@@ -41,12 +41,22 @@
 
 
 
+.container 
+{
 
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* outline: 2px solid tomato; */
+}
 
 
 /* -----------------------------------------------------------------HERO--------------------------------------------------------- */
 
-
+.main-first-section {
+  padding:  188px 0;
+ background-image: linear-gradient( rgba(46, 47, 66, 0.7),  rgba(46, 47, 66, 0.7)), url(../images/hero-images.png);
+  }
 .top-section-head
 {
   margin-bottom: 48px;
@@ -54,4 +64,50 @@
   height: 120px;
   font-size: 56px;
   line-height: 1.07;
+}
+.main-mid-section
+{
+  padding: 120px 0 0;
+}
+
+.main-list-item
+{
+  width: calc((100% - 72px) / 4);
+}
+.icon
+{
+  height: 112px;
+background: #F4F4FD;
+border: transparent;
+border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.hero-list
+{
+  gap: 24px;
+  flex-wrap: nowrap;
+}
+.list-object
+{
+  width:100%;
+}
+
+.list-hero
+{
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+}
+.about-section
+{
+  display: block;
+}
+.main-bot-section
+{
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
+  justify-content: space-evenly
 }

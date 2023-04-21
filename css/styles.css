@@ -77,7 +77,7 @@ ul{
 .container 
 {
   margin: 0 auto;
-  width: 1158px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   /* outline: 2px solid tomato; */
@@ -149,21 +149,19 @@ ul{
     gap: 24px;
 
 }
-.main-mid-section
-{
-  padding: 120px 0 0;
-}
-
 .hero-list
 {
   display: flex;
-  gap: 24px;
+  gap: 72px;
   font-family: 'Roboto';
   font-style: normal;
+  flex-wrap: wrap;
 }
+
+
 .main-list-item
 {
-  width: calc((100% - 72px) / 4);
+  width: 100%;
 }
 .result-list
 {
@@ -242,13 +240,7 @@ justify-content: center;
 
 .icon
 {
-height: 112px;
-background: #F4F4FD;
-border: transparent;
-border-radius: 4px;
-display: flex;
-justify-content: center;
-align-items: center;
+  display: none;
 }
 .strategy-icon
 {
@@ -362,25 +354,21 @@ color: #434455;
 
 
 .list-object {  
-
+  max-width: 396px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--link-color);
- 
-
 }
 
 .main-first-section {
   max-width: 1440px;
   margin: 0 auto;
-  padding:  188px 0;
+  padding:  112px 0;
  background-image: linear-gradient( rgba(46, 47, 66, 0.7),  rgba(46, 47, 66, 0.7)), url(../images/hero-images.png);
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center;
-
-
   }
 .team
 {
@@ -404,11 +392,11 @@ color: #434455;
 {   
   margin-top: 8px;
   margin-bottom: 8px;
-  font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--nav-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--nav-color);
 }
 
 .main-btn {
@@ -488,15 +476,14 @@ padding:120px 0;
 .main-bot-section
 {
   display: flex;
-  gap: 24px;
-margin: 0 auto;
-justify-content: space-evenly
-
-
+  flex-wrap: wrap;
+  gap: 72px;
+  margin: 0 auto;
 }
 
 .about-section
 {
+  display: none;
   padding: 120px 0;
 }
 .about-head
