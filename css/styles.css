@@ -537,20 +537,23 @@ text-transform: uppercase;
 .customers-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px 16px;
+
 }
 
 .customers-list-item {
-  width: 168px;
   height: 88px;
-  
+  width: 190px;
 }
+
+
 
 .customers-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 168px;
+  width: 190px;
   height: 88px;
   border: 1px solid #8E8F99;
   border-radius: 4px;
@@ -578,20 +581,34 @@ fill:#404BBF;
   COLOR: #f4f4fd
 }
 
-
 .footer
 {
-  padding-top: 100px ;
-  padding-bottom: 100px;
+  padding-top: 97px ;
+  padding-bottom: 97px;
+  padding-left: 15px;
+  padding-right: 15px;
   background-color: var(--nav-color);
 }
+
 .footer-info-contact
 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 120px;
+  gap: 72px;
+  flex-direction: column;
 }
+
+.footer-soc
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
 .footer-soc-list
 {
   display: flex;
@@ -604,7 +621,7 @@ fill:#404BBF;
 
 .footer-list-object
 {     
-  margin-top: 15px;
+  margin-top: 17.5px;
   max-width: 264px;
   font-weight: 400;
   font-size: 16px;
@@ -612,6 +629,13 @@ fill:#404BBF;
   letter-spacing: 0.02em;
   color: #F4F4FD;
   
+}
+.footer-info
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .footer-head
 { 
@@ -621,14 +645,16 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
-margin-bottom: 16px;
+
 }
 .footer-container
 {
 display: flex;
-gap: 80px;
+gap: 72px;
+flex-wrap: wrap;
 justify-content: center;
 align-items: center;
+
 }
 .footer-soc-item
 {
@@ -666,7 +692,7 @@ line-height: 2;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
-  width: 264px;
+  width: 398px;
   height: 40px;
   background-color: transparent;
   color: #FFFFFF;
@@ -679,12 +705,21 @@ letter-spacing: 0.04em;
 {
   color: #FFFFFF;
 }
+.form-container
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
 .footer-form
 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
+  flex-direction: column;
 }
 .footer-contact-btn
 {
