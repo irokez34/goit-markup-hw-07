@@ -49,12 +49,9 @@
 }
 .main-bot-section
 {
-  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   gap: 64px 24px;
-  margin: 0 auto;
- justify-content: center;
- align-items: center;
 }
 .customers-list-item
 {
@@ -88,7 +85,6 @@
     padding-bottom: 96px;
     padding-left: 108px;
     padding-right: 164px;
-    background-color: var(--nav-color);
 }
 .footer-info
 {
@@ -96,8 +92,6 @@
 }
 .footer-soc
 {
-  display: flex;
-  justify-content: center;
   align-items: start;
 }
 .footer-input
