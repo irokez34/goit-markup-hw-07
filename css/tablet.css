@@ -27,6 +27,29 @@
 
 
 /* ---------------------------------------------------HERO------------------------------------- */
+.nav-list
+{
+  margin-left: 76px;
+  margin-right: auto;
+  gap: 40px;
+  display:flex;
+}
+
+.header-address
+{ 
+  display: block;
+  font-style:normal;
+}
+
+.current-page::after
+{
+  height: 4px;
+}
+
+
+
+
+
 .top-section-head
 {
   width: 496px;
