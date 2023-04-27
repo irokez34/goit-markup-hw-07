@@ -47,8 +47,14 @@
 }
 
 
-
-
+.menu-toggle
+{
+  display: none;
+}
+.mob-menu
+{
+  display: none;
+}
 
 .top-section-head
 {
@@ -58,6 +64,17 @@
   line-height: 1.07;
   margin-bottom: 36px;
 }
+.main-first-section {
+ background-image: linear-gradient( rgba(46, 47, 66, 0.7),  rgba(46, 47, 66, 0.7)), url(../images/hero-images.png);
+  }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (mir-resolution: 2dppx){
+    .main-first-section
+    {
+      background-image:  linear-gradient( rgba(46, 47, 66, 0.7),  rgba(46, 47, 66, 0.7)), url(../images/descktop-bg-img-2x.jpg);
+    }
+  }
 .main-list-item
 {
   width: calc((100% - 24px) / 2);

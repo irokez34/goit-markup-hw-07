@@ -44,17 +44,20 @@
       </ul>
     </address>
    
-      <button type="button" class="menu-open-btn js-open-menu"  aria-expanded="false"
-      aria-controls="mobile-menu">
+    <button
+    class="menu-toggle js-open-menu"
+    aria-expanded="false"
+    aria-controls="mobile-menu"
+  >
       <svg class="menu-icon" width="32" height="32">
         <use href="./images/icons.svg#icon-menu"></use>
       </svg>
     </button>
-   
+
   </div>
-  <div class="mob-menu  js-menu-container" id="mobile-menu">
+  <div class="mob-menu js-menu-container" id="mobile-menu" >
     <div class="top-menu">
-    <button type="button" class="menu-close-btn js-close-menu" >x<svg class="close-menu-icon" width="8" height="8">
+    <button class="menu-close-btn js-close-menu" >x<svg class="close-menu-icon" width="8" height="8">
       <use href="./images/icons.svg"></use>
     </svg></button>
     <ul class="menu-list list">
@@ -96,14 +99,14 @@
     </div>
   </div>
   </header>
-  <!-- <main>  
-    <section class="main-first-section">
+   <main>  
+    <!-- <section class="main-first-section">
      <div class="container">
       <h1 class="top-section-head">Effective Solutions for Your Business</h1>
       <button class="main-btn" type="button" data-modal-open>Order Service</button>
     </div>
     </section>
-    
+     -->
     <section class="main-mid-section">
       <div class="container">
         <h2 class="visually-hidden" >OUR STRATEGY</h2>
@@ -159,9 +162,9 @@
       <div class="container about-container ">
       <h2 class="section-head about-head">What are we doing</h2>
       <ul class="list section-bot-list">
-        <li><img src="./images/wawd-pic-1.jpg" alt="many" width="360" /></li>
-        <li><img src="./images/wawd-pic-2.jpg" alt="any" width="360" /></li>
-        <li><img src="./images/wawd-pic-3.jpg" alt="some" width="360" /></li>
+        <li><img src="./images/wawd-pic-1.jpg" alt="many" srcset="./images/wawd-pic-1-2x.jpg 2x" width="360" /></li>
+        <li><img src="./images/wawd-pic-2.jpg" alt="any" srcset="./images/wawd-pic-2-2x.jpg 2x" width="360" /></li>
+        <li><img src="./images/wawd-pic-3.jpg" alt="some" srcset="./images/wawd-pic-3-2x.jpg 2x" width="360" /></li>
       </ul>
       </div>
     </section>  
@@ -170,7 +173,11 @@
       <h2 class="section-head bot-section-head">Our Team</h2>
       <ul class="main-bot-section list">
         <li class="section-list-item">
-          <img src="./images/teamperson1.jpg" alt="person1" width="264" />
+          <img
+          src="./images/teamperson1.jpg" 
+          alt="person1"
+          srcset="./images/teamperson1-2x.jpg 2x" 
+           width="264" />
           <h3 class="team-list-hero">Mark Guerrero</h3>
           <p class="team-list-object">Product Designer</p>
           <ul class="team-soc-list list">
@@ -199,7 +206,8 @@
           </ul>
         </li>
         <li class="section-list-item">
-          <img src="./images/teamperson2.jpg" alt="person2" width="264" />
+          <img src="./images/teamperson2.jpg" alt="person2"
+          srcset="./images/teamperson2-2x.jpg 2x" width="264" />
           <h3 class="team-list-hero">Tom Ford</h3>
           <p class="team-list-object">Frontend Developer</p>
           <ul class="team-soc-list list">
@@ -229,7 +237,9 @@
           
         </li>
         <li class="section-list-item">
-          <img src="./images/teamperson3.jpg" alt="person3" width="264" />
+          <img src="./images/teamperson3.jpg" alt="person3"
+          srcset="./images/teamperson3-2x.jpg 2x"
+          width="264" />
           <h3 class="team-list-hero">Camila Garcia</h3>
           <p class="team-list-object">Marketing</p>
           <ul class="team-soc-list list">
@@ -258,7 +268,9 @@
           </ul>
         </li>
         <li class="section-list-item">
-          <img src="./images/teamperson4.jpg" alt="person4" width="264" />
+          <img src="./images/teamperson4.jpg" alt="person4"
+          srcset="./images/teamperson4-2x.jpg 2x"
+           width="264" />
           <h3 class="team-list-hero">Daniel Wilson</h3>
           <p class="team-list-object">UI Designer</p>
           <ul class="team-soc-list list">
@@ -328,8 +340,8 @@
         
       </ul> 
     </div>
-    </section> 
-  </main> -->
+    </section>  
+  </main> 
 
   <footer class="footer">
     <div class="footer-container container">
@@ -440,7 +452,7 @@
     </div>
   </div>
   <script src="./js/modal.js" type="module"></script>
-  <script src="./js/mobile-menu.js" type="module"></script>
+  <script defer src="js/mobile-menu.js"></script>
 </body>
 
 </html>
