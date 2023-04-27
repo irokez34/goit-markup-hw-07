@@ -45,7 +45,15 @@
 {
   height: 4px;
 }
-
+.address-list
+{
+  flex-direction: column;
+  gap: 12px;
+}
+.address-list-item
+{
+  padding: 0;
+}
 
 .menu-toggle
 {

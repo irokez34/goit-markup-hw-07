@@ -75,6 +75,17 @@
 {
   width: calc((100% - 72px) / 4);
 }
+.address-list
+{
+  flex-direction: row;
+  gap: 40px;
+}
+.address-list-item
+{
+  padding: 24px 0;
+  display: block;
+}
+
 .icon
 {
   height: 112px;
