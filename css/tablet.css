@@ -83,8 +83,14 @@
       background-image:  linear-gradient( rgba(46, 47, 66, 0.7),  rgba(46, 47, 66, 0.7)), url(../images/descktop-bg-img-2x.jpg);
     }
   }
+ 
+  .team
+  {
+    padding: 96px 0;
+  }
 .main-list-item
 {
+ display: block;
   width: calc((100% - 24px) / 2);
 }
 .hero-list
@@ -112,6 +118,7 @@
   height: 88px;
 }
 .customers-list {
+  max-width: 100%;
   gap: 72px 24px;
   width: 100%;
 }
@@ -123,16 +130,16 @@
 }
 .footer-container
 {
+  width: 582px;
+  gap: 72px;
   justify-content:start;
   
   }
 
 .footer
 {
-  padding-top: 96px;
+    padding-top: 96px;
     padding-bottom: 96px;
-    padding-left: 108px;
-    padding-right: 164px;
 }
 .footer-info
 {
