@@ -959,6 +959,7 @@ align-items: center;
   width: 100%;
   transition: opacity 300ms linear, visibility 300ms linear;
 }
+
 .modal
 {
   padding: 72px 24px 24px;
@@ -972,6 +973,11 @@ transition: transform 300ms linear;
 background: #FCFCFC;
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
+}
+@media screen and (max-width: 480px) {
+.modal{
+  max-width: 100%;
+}  
 }
 
 
@@ -1035,6 +1041,12 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
 transition: border-color var(--transition-duration);
 }
+@media screen and (max-width: 480px) {
+.modal-input{
+  max-width: 100%;
+}  
+}
+
 .modal-input:focus
 {
   border-color:var(--logo-color);
@@ -1134,6 +1146,7 @@ transition:background-color var(--transition-duration);
 line-height: 1.17;
 letter-spacing: 0.04em;
 }
+
 .check-text span
 {
   display: flex;
