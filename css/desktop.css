@@ -106,16 +106,23 @@ align-items: center;
 }
 .list-object
 {
+  font-weight: 400;
   width:100%;
 }
-
+.team
+{
+  padding: 120px 0;
+}
+.main-customer-section
+{
+  padding: 120px 0;
+}
 .list-hero
 {
   margin-top: 8px;
-  margin-bottom: 8px;
   font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
+  font-size: 20px;
+  line-height: 1.2;
 }
 .about-section
 {
